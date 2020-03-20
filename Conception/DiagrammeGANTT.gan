@@ -54,7 +54,13 @@ Le développement : Le développement devrait prendre de 4 à 5 mois si on s'y m
 3. Questions/Réponses  
 4. Création du Trello ]]></notes>
         </task>
-        <task id="25" name="Level Design" color="#8cb6ce" meeting="false" start="2019-04-18" duration="1" complete="0" thirdDate="2019-04-18" thirdDate-constraint="0" expand="true"/>
+        <task id="25" name="Level Design" color="#8cb6ce" meeting="false" start="2019-04-18" duration="1" complete="0" thirdDate="2019-04-18" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Level Design 
+
+Concevoir les maps, l'univers du jeu
+
+]]></notes>
+        </task>
         <task id="0" name="Conception" meeting="false" start="2019-04-18" duration="1" complete="0" expand="true">
             <depend id="5" type="2" difference="0" hardness="Strong"/>
             <depend id="10" type="2" difference="0" hardness="Strong"/>
