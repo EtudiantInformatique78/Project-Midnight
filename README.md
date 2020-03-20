@@ -28,3 +28,5 @@ Installez VisualParadigm pour les diagrammes UML
 
 
 Je rappelle que la conception est indispensable pour la réalisation d'un projet. Une mauvaise conception implique un echec du projet !
+
+Lien vers le Trello : https://trello.com/b/77ahxofS/project-midnight
