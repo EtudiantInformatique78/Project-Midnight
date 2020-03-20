@@ -15,3 +15,5 @@ Elle peut crafter des objets (un pistolet en tuyau par exemple) et hacker des sy
 jouable. Entre deux chapitres, on joue Marc, le mercenaire. Son gameplay s'articule surtout sur du shoot.
 
 Le développement : Le développement devrait prendre de 4 à 5 mois si on s'y met à fond, une pre-alpha sortira d'ici Mai ou Juin
+
+On souhaiterait utiliser Unreal Engine 4 pour créer le Jeu
