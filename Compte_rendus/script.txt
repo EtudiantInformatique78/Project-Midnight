@@ -1,0 +1,1 @@
+On a effectué un script bash2.sh afin d'avoir l'ensemble des répertoire trié en fonction des mois et des jours de l'année 2020
