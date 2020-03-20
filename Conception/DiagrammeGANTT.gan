@@ -48,7 +48,12 @@ Le développement : Le développement devrait prendre de 4 à 5 mois si on s'y m
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="8" name="1ère réunion" meeting="false" start="2019-04-18" duration="1" complete="0" expand="true"/>
+        <task id="8" name="1ère réunion" color="#8cb6ce" meeting="false" start="2019-04-18" duration="1" complete="0" thirdDate="2019-04-18" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[1. Présentation des membres  
+2. Présentation du projet 
+3. Questions/Réponses  
+4. Création du Trello ]]></notes>
+        </task>
         <task id="0" name="Conception" meeting="false" start="2019-04-18" duration="1" complete="0" expand="true">
             <depend id="5" type="2" difference="0" hardness="Strong"/>
             <depend id="10" type="2" difference="0" hardness="Strong"/>
@@ -70,6 +75,8 @@ Le développement : Le développement devrait prendre de 4 à 5 mois si on s'y m
         <resource id="9" name="IMA" function="Default:0" contacts="" phone=""/>
         <resource id="10" name="Etudiant_informatique" function="Default:0" contacts="" phone=""/>
         <resource id="11" name="Marion la best" function="Default:0" contacts="" phone=""/>
+        <resource id="12" name="Tomi" function="Default:0" contacts="" phone=""/>
+        <resource id="13" name="Elise" function="Default:0" contacts="" phone=""/>
     </resources>
     <allocations>
         <allocation task-id="5" resource-id="7" function="Default:0" responsible="true" load="100.0"/>
