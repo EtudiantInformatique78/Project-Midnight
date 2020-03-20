@@ -17,3 +17,14 @@ jouable. Entre deux chapitres, on joue Marc, le mercenaire. Son gameplay s'artic
 Le développement : Le développement devrait prendre de 4 à 5 mois si on s'y met à fond, une pre-alpha sortira d'ici Mai ou Juin
 
 On souhaiterait utiliser Unreal Engine 4 pour créer le Jeu
+
+Installez GIT sur votre OS puis créez-vous un compte Git
+
+Sur Discord vous m'envoyez votre pseudo et je vous rajoute
+
+Installez GANTTProject pour ouvrir le diagramme de GANTT
+
+Installez VisualParadigm pour les diagrammes UML 
+
+
+Je rappelle que la conception est indispensable pour la réalisation d'un projet. Une mauvaise conception implique un echec du projet !
