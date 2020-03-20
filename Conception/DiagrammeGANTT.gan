@@ -58,7 +58,7 @@ Le développement : Le développement devrait prendre de 4 à 5 mois si on s'y m
         </task>
         <task id="14" name="Class diagram" color="#8cb6ce" meeting="false" start="2019-04-20" duration="1" complete="0" thirdDate="2019-04-18" thirdDate-constraint="0" expand="true"/>
         <task id="5" name="Scénario" color="#8cb6ce" meeting="false" start="2019-04-19" duration="1" complete="0" thirdDate="2019-04-18" thirdDate-constraint="0" expand="true"/>
-        <task id="9" name="2ème réunion" meeting="false" start="2019-04-25" duration="1" complete="0" expand="true"/>
+        <task id="9" name="2ème réunion" color="#8cb6ce" meeting="false" start="2019-04-18" duration="1" complete="0" thirdDate="2019-04-25" thirdDate-constraint="0" expand="true"/>
         <task id="2" name="Réalisation" color="#8cb6ce" meeting="false" start="2019-05-14" duration="1" complete="0" thirdDate="2019-04-18" thirdDate-constraint="0" expand="true"/>
     </tasks>
     <resources>
