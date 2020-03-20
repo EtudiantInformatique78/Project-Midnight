@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><project name=" Project: Midnight" company="" webLink="http://" view-date="2019-04-18" view-index="0" gantt-divider-location="300" resource-divider-location="300" version="2.8.10" locale="fr">
+    <description><![CDATA[Jeux vidéo : 
+
+Titre : Project: Midnight
+Genre : Indéfini pour le moment
+Support : Microsoft Windows
+Sortie : Été 2020
+
+Le pitch : Dans un futur proche, des adolescents aux capacités surnaturelles sont internés dans un centre de recherches dirigé par une corporation
+mystérieuse. Lily est l'une d'entre eux. Lorsqu'elle découvre n'être qu'un rat de laboratoire pour des expériences, elle fuit avec quelques autres.
+Maintenant, ils sont poursuivis par des mercenaires bien décidés à les capturer
+
+Le gameplay : Le gameplay est axé sur les pouvoirs de Lily (télépathie, télékinésie, électrokinésie, téléportation, métamorphose, contrôle de l'envrionnement)
+Elle peut crafter des objets (un pistolet en tuyau par exemple) et hacker des systèmes informatiques avec son ordinateur portable. Lily ne sera pas le seul personnage
+jouable. Entre deux chapitres, on joue Marc, le mercenaire. Son gameplay s'articule surtout sur du shoot.
+
+Le développement : Le développement devrait prendre de 4 à 5 mois si on s'y met à fond, une pre-alpha sortira d'ici Mai ou Juin]]></description>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="167" order="0"/>
+        <field id="tpd4" name="Date de début" width="65" order="1"/>
+        <field id="tpd5" name="Date de fin" width="64" order="2"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="0" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="true"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="8" name="1ère réunion" meeting="false" start="2019-04-18" duration="1" complete="0" expand="true"/>
+        <task id="0" name="Conception" meeting="false" start="2019-04-18" duration="1" complete="0" expand="true">
+            <depend id="5" type="2" difference="0" hardness="Strong"/>
+            <depend id="10" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="10" name="Uses case diagram" color="#8cb6ce" meeting="false" start="2019-04-19" duration="1" complete="0" thirdDate="2019-04-18" thirdDate-constraint="0" expand="true">
+            <depend id="14" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="14" name="Class diagram" color="#8cb6ce" meeting="false" start="2019-04-20" duration="1" complete="0" thirdDate="2019-04-18" thirdDate-constraint="0" expand="true"/>
+        <task id="5" name="Scénario" color="#8cb6ce" meeting="false" start="2019-04-19" duration="1" complete="0" thirdDate="2019-04-18" thirdDate-constraint="0" expand="true"/>
+        <task id="9" name="2ème réunion" meeting="false" start="2019-04-25" duration="1" complete="0" expand="true"/>
+        <task id="2" name="Réalisation" color="#8cb6ce" meeting="false" start="2019-05-14" duration="1" complete="0" thirdDate="2019-04-18" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="4" name="Eliott" function="Default:1" contacts="" phone=""/>
+        <resource id="5" name="Lucas" function="Default:0" contacts="" phone=""/>
+        <resource id="6" name="Candice" function="Default:0" contacts="" phone=""/>
+        <resource id="7" name="Lily" function="Default:0" contacts="" phone=""/>
+        <resource id="8" name="Mexknak" function="Default:0" contacts="" phone=""/>
+        <resource id="9" name="IMA" function="Default:0" contacts="" phone=""/>
+        <resource id="10" name="Etudiant_informatique" function="Default:0" contacts="" phone=""/>
+        <resource id="11" name="Marion la best" function="Default:0" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="5" resource-id="7" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="5" resource-id="9" function="Default:0" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
